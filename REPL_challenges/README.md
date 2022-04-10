@@ -1,0 +1,3 @@
+This file serves as a repository for algorithm challlengs completed via Repl. There is a full list of 80 separate coding challenges that are run through the Replit.com site. Once I have confirmed these algorithms work they are copied into the respective VS code file to keep track of the challenge progress.
+
+These challenges are set to get harder, working from 80 down to 1. The files in VS code are set to contain 10 sets of algorithms starting at 80 to 70 down to 10 to 1.
