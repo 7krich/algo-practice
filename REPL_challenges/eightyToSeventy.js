@@ -49,6 +49,7 @@ console.log(isOldEnoughToDrive(age))
 
 // var output = isOldEnoughToVote(22);
 // console.log(output); // --> true
+// 78
 
 function isOldEnoughToVote(age) {
     // your code here
@@ -71,6 +72,7 @@ function isOldEnoughToVote(age) {
   
   // var output = isOldEnoughToDrinkAndDrive(22);
   // console.log(output); // --> false
+  // 77
 
 function isOldEnoughToDrinkAndDrive(age) {
     // your code here
@@ -82,3 +84,72 @@ function isOldEnoughToDrinkAndDrive(age) {
 let age = 22;
   
 console.log(isOldEnoughToDrinkAndDrive(age));
+
+// ** Challenges 76-74 did not require functions. They cover removing, adding & getting properties from an object
+
+// Write a function called "checkAge".
+
+// Given a person's name and age, "checkAge" returns one of two messages:
+
+// "Go home, {insert_name_here}!", if they are younger than 21."Welcome, {insert_name_here}!", if they are 21 or older.
+
+// Naturally, replace "{insert_name_here}" with the given name. :)
+
+// var output = checkAge('Adrian', 22);
+// console.log(output); // --> 'Welcome, Adrian!'
+// 73
+
+function checkAge() {
+  // your code here
+  if (person.age > 20) {
+    return `Welcome, ${person.name}!`
+  } else {
+    return `Go home, ${person.name}`
+  }
+}
+
+let person = {
+  name : 'Adrian',
+  age : 22
+}
+
+console.log(checkAge(person));
+
+// Write a function called "getFullName".
+
+// Given a first and a last name, "getFullName" returns a single string with the given first and last names separated by a single space.
+
+// var output = getFullName('Joe', 'Smith');
+// console.log(output); // --> 'Joe Smith'
+// 72
+
+function getFullName(firstName, lastName) {
+  // your code here
+  return firstName + ' ' + lastName;
+}
+
+let firstName = 'Joe';
+let lastName = 'Smith';
+
+console.log(getFullName(firstName, lastName));
+
+// Write a function called "getLengthOfWord".
+
+// Given a word, "getLengthOfWord" returns the length of the given word.
+
+// var output = getLengthOfWord('some');
+// console.log(output); // --> 4
+
+function getLengthOfWord(word) {
+  // your code here
+
+  let wordLength = ''
+  
+  for (var i = 0; i < word.length; i++) {
+    return wordLength += word.length
+  }
+};
+
+let word = 'some';
+
+console.log(getLengthOfWord(word));
