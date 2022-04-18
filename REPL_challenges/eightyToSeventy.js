@@ -201,3 +201,37 @@ function getLengthOfWord(word) {
 let word = 'some';
 
 console.log(getLengthOfWord(word));
+
+// ----------------------------------------------
+// 70
+// Write a function called "removeEvenValues".
+// Given any object, "removeEvenValues" removes any properties whose values are even numbers.
+// Do this in place and return the original object, do not construct a cloned object that omits the properties.
+// var obj = {
+//   a: 2,
+//   b: 3,
+//   c: 4
+// };
+// removeEvenValues(obj);
+// console.log(obj); // --> { b: 3 }
+// Note: Remember, we are talking about any object, not just the one shown in the sample.
+
+let obj = {
+  a: 2,
+  b: 3,
+  c: 4
+};
+
+function removeEvenValues(obj) {
+  // your code here
+  // loop through the OBJECT (can't use for loop since it's not an array)
+  for (const property in obj) {
+    // Since property key is a symbol it can be anything so bracket notation is required
+    // if the object remainder is not equal to 0 (even) return the remaining property (odd number)
+    if (obj[property] % 2 !== 0) {
+      return obj[property];
+    };
+  }
+};
+
+console.log(removeEvenValues(obj));
