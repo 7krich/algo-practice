@@ -54,3 +54,88 @@ function isLessThan30(num) {
   }
   
   console.log(isLessThan30(9));
+
+// ----------------------------------------------
+// 66
+// Write a function called "equalsTen".
+// Given a number, "equalsTen" returns whether or not the given number is 10.
+// var output = equalsTen(9);
+// console.log(output); // --> false
+
+function equalsTen(num) {
+    // your code here
+    if (num === 10) {
+      return true;
+    }
+    return false;
+  }
+  
+  console.log(equalsTen(9));
+
+// ----------------------------------------------
+// 65
+// Write a function called "isLessThan".
+// Given 2 numbers, "isLessThan" returns whether num2 is less than num1.
+// var output = isLessThan(9, 4);
+// console.log(output); // --> true
+
+function isLessThan(num1, num2) {
+    // your code here
+    if (num2 < num1) {
+      return true;
+    }
+    return false;
+  };
+  
+  console.log(isLessThan(9, 4));
+
+// ----------------------------------------------
+// 64
+// Write a function called "isGreaterThan".
+// Given 2 numbers, "isGreaterThan" returns whether num2 is greater than num1.
+// var output = isGreaterThan(11, 10);
+// console.log(output); // --> false
+
+function isGreaterThan(num1, num2) {
+    // your code here
+    if (num2 > num1) {
+      return true
+    }
+    return false;
+  };
+  
+  console.log(isGreaterThan(11, 10));
+
+// ----------------------------------------------
+// 63
+// Write a function called "isEqualTo".
+// Given 2 numbers, "isEqualTo" returns whether num2 is equal to num1.
+// var output = isEqualTo(11, 10);
+// console.log(output); // --> false
+
+function isEqualTo(num1, num2) {
+    // your code here
+    if (num1 == num2) {
+      return true;
+    }
+    return false;
+  };
+  
+  console.log(isEqualTo(11, 10));
+
+// ----------------------------------------------
+// 62
+// Write a function called "isEven".
+// Given a number, "isEven" returns whether it is even.
+// var output = isEven(11);
+// console.log(output); // --> false
+
+function isEven(num) {
+    // your code here
+    if (num % 2 === 0) {
+      return true;
+    }
+    return false;
+  };
+  
+  console.log(isEven(11));
