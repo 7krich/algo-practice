@@ -139,3 +139,154 @@ function isEven(num) {
   };
   
   console.log(isEven(11));
+
+// ----------------------------------------------
+// 61
+// Write a function called "isOdd".
+// Given a number, "isOdd" returns whether the given number is odd.
+// var output = isOdd(9);
+// console.log(output); // --> true
+
+function isOdd(num) {
+    // your code here
+    if (num % 2 === 0) {
+      return false;
+    }
+    return true;
+  };
+  
+  console.log(isOdd(9));
+
+// ----------------------------------------------
+// 60
+// Write a function called "isSameLength".
+// Given two words, "isSameLength" returns whether the given words have the same length.
+// var output = isSameLength('words', 'super');
+// console.log(output); // --> true
+
+function isSameLength(word1, word2) {
+    // your code here
+    if (word1.length == word2.length) {
+      return true;
+    }
+    return false;
+  };
+  
+  console.log(isSameLength('words', 'super'));
+
+// ----------------------------------------------
+// 59
+// Write a function called "areBothOdd".
+// Given 2 numbers, "areBothOdd" returns whether or not both of the given numbers are odd.
+// var output = areBothOdd(1, 3);
+// console.log(output); // --> true
+
+function areBothOdd(num1, num2) {
+    // your code here
+    if (num1 % 2 !== 0 && num2 % 2 !== 0) {
+      return true;
+    }
+    return false;
+  };
+  
+  console.log(areBothOdd(1, 3));
+
+// ----------------------------------------------
+// 58
+// Write a function called "isEitherEven".
+// Given two numbers, "isEitherEven" returns whether or not either one of the given numbers is even.
+// var output = isEitherEven(1, 4);
+// console.log(output); // --> true
+
+function isEitherEven(num1, num2) {
+    // your code here
+    if (num1 % 2 === 0 || num2 % 2 === 0) {
+      return true;
+    }
+    return false;
+  };
+  
+  console.log(isEitherEven(1, 4));
+
+// ----------------------------------------------
+// 57
+// Write a function called "isOddLength".
+// Given a word, "isOddLength" returns whether the length of the given word is odd.
+// var output = isOddLength('special');
+// console.log(output); // --> true
+
+function isOddLength(word) {
+    // your code here
+    if (word.length % 2 !== 0) {
+      return true;
+    }
+    return false;
+  };
+  
+  console.log(isOddLength('special'));
+
+// ----------------------------------------------
+// 56
+// Write a function called "isEvenLength".
+// Given a word, "isEvenLength" returns whether the length of the word is even.
+// var output = isEvenLength('wow');
+// console.log(output); // --> false
+
+function isEvenLength(word) {
+    // your code here
+    if (word.length % 2 === 0) {
+      return true;
+    }
+    return false;
+  };
+  
+  console.log(isEvenLength('wow'));
+
+// ----------------------------------------------
+// 55
+// Write a function called "isEvenAndGreaterThanTen".
+// Given a number, "isEvenAndGreaterThanTen" returns whether it is both even and greater than 10.
+// var output = isEvenAndGreaterThanTen(13);
+// console.log(output); // --> false
+
+function isEvenAndGreaterThanTen(num) {
+    // your code here
+    if (num % 2 === 0 && num > 10) {
+      return true;
+    }
+    return false;
+  };
+  
+  console.log(isEvenAndGreaterThanTen(13));
+
+// ----------------------------------------------
+// 54
+// Write a function called "average".
+// Given two numbers, "average" returns their average.
+// var output = average(4, 6);
+// console.log(output); // --> 5
+
+function average(num1, num2) {
+    // your code here
+    newNum = num1 + num2;
+    finalNum = newNum / 2;
+    return finalNum;
+  };
+  
+  console.log(average(4, 6));
+
+// ----------------------------------------------
+// 54
+// Write a function called "computeAreaOfATriangle".
+// Given the base and height of a triangle, "computeAreaOfATriangle" returns its area.
+// var output = computeAreaOfATriangle(4, 6);
+// console.log(output); // --> 12
+
+function computeAreaOfATriangle(base, height) {
+    // your code here
+    sqArea = base * height;
+    return triArea = sqArea / 2
+  };
+  
+  console.log(computeAreaOfATriangle(4, 6));
+
