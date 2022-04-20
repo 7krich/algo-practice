@@ -276,7 +276,7 @@ function average(num1, num2) {
   console.log(average(4, 6));
 
 // ----------------------------------------------
-// 54
+// 53
 // Write a function called "computeAreaOfATriangle".
 // Given the base and height of a triangle, "computeAreaOfATriangle" returns its area.
 // var output = computeAreaOfATriangle(4, 6);
@@ -290,3 +290,47 @@ function computeAreaOfATriangle(base, height) {
   
   console.log(computeAreaOfATriangle(4, 6));
 
+// ----------------------------------------------
+// 52
+// Write a function called "cube".
+// Given a number, "cube" returns the cube of that number.
+// var output = cube(3);
+// console.log(output); // --> 27
+
+function cube(num) {
+  // your code here
+  cubed = num * num * num;
+  return cubed;
+};
+
+console.log(cube(3));
+
+// ----------------------------------------------
+// 51
+// Write a function called "square".
+// Given a number, "square" should return the square of the given number.
+// var output = square(5);
+// console.log(output); // --> 25
+
+function square(num) {
+  // your code here
+  squared = num * num;
+  return squared;
+};
+
+console.log(square(5));
+
+// ----------------------------------------------
+// 50
+// Write a function called "computeAverageLengthOfWords".
+// Given two words, "computeAverageLengthOfWords" returns the average of their lengths.
+// var output = computeAverageLengthOfWords('code', 'programs');
+// console.log(output); // --> 6
+
+function computeAverageLengthOfWords(word1, word2) {
+  // your code here
+  charLength = word1.length + word2.length;
+  return avg = charLength / 2;
+};
+
+console.log(computeAverageLengthOfWords('code', 'programs'));
